@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import SocialNav from './SocialNav';
 import CardWithAvatar from './Card';
