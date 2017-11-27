@@ -1,5 +1,4 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import SocialNav from './SocialNav';
 import CardWithAvatar from './Card';
@@ -15,7 +14,6 @@ const App = () => (
     <div className="content">
       <div className="container">
         <Profile />
-        <CardWithAvatar />
       </div>
       <ScrollToTopButton />
     </div>

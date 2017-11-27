@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import SocialNav from './SocialNav';
+import Nav from './Nav';
 import me from '../img/me2.jpg';
 
 class Profile extends Component {
@@ -36,22 +37,7 @@ class Profile extends Component {
             </div>
           </div>
         </div>
-        <div className="profile-nav">
-          <SocialNav />
-        </div>
-        <div className="resume-section">
-          <a
-            href="https://docs.google.com/document/d/1EjiOCe7oS2ErT1Aah3jjNqMf963PCjxDaDoidYaNIcA/export?format=pdf"
-            download
-          >
-            <p className="resume-button">Download Resume</p>
-          </a>
-          <p>
-            Hello, I'm Andrew, a Junior Web Developer specializing in front end development. I am currently located in
-            Helsinki, Finland. I like building responsive, accessible, semantic, fast websites. I spend my days typing
-            in modern JavaScript and I am currently looking for an entry-level React developer position.
-          </p>
-        </div>
+        <Nav />
       </section>
     );
   }

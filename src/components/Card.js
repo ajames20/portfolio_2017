@@ -176,9 +176,7 @@ export default class CardWithAvatar extends React.Component {
     return (
       <section>
         <h2 className="projects-title">Recent Projects</h2>
-        <div className="cards">
-          {this.state.cardData.map(this.renderCard, this)}
-        </div>
+        <div className="cards">{this.state.cardData.map(this.renderCard, this)}</div>
       </section>
     );
   }
