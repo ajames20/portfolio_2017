@@ -39,7 +39,7 @@ class SocialNav extends Component {
                 </a>
               </li>
               <li>
-                <a href="https://github.com/ajames20" className="footer-icons" target="_blank">
+                <a href="https://codepen.io/andrewtjames" className="footer-icons" target="_blank">
                   {codepen}
                 </a>
               </li>

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import SocialNav from './SocialNav';
 import Nav from './Nav';
 import me from '../img/me2.jpg';
 
